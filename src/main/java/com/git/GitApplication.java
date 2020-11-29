@@ -12,4 +12,5 @@ public class GitApplication {
         ConfigurableEnvironment env = app.run(args).getEnvironment();
         log.warn("服务启动成功,地址：http://localhost:" + env.getProperty("server.port"));
     }
+
 }
